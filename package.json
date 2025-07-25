@@ -1,0 +1,31 @@
+{
+  "name": "lives-better-today",
+  "version": "1.0.0",
+  "description": "Discover the best tips and products for your physical and mental well-being.",
+  "main": "src/index.tsx",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "health",
+    "wellness",
+    "tips",
+    "products",
+    "subscription"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.2"
+  }
+}
