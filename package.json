@@ -16,7 +16,7 @@
     "products",
     "subscription"
   ],
-  "author": "Your Name",
+  "author": "Jesús Santos",
   "license": "MIT",
   "dependencies": {
     "react": "^17.0.2",
