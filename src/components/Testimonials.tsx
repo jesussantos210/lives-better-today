@@ -2,7 +2,7 @@ import React from 'react';
 import './Testimonials.css'; // Opcional si quieres estilos separados
 
 const Testimonials: React.FC = () => {
-  const testimonios = [
+  const testimonials = [
   {
     name: 'María Rodríguez',
     image: 'https://randomuser.me/api/portraits/women/44.jpg',
@@ -22,7 +22,7 @@ const Testimonials: React.FC = () => {
 
   return (
     <div className="testimonials">
-      <h2>Testimonios</h2>
+      <h2>Testimonial</h2>
       <div className="testimonial-list">
         {testimonials.map((testimonial, index) => (
           <div className="testimonial-card" key={index}>
