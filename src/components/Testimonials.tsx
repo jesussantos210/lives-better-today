@@ -1,7 +1,8 @@
 import React from 'react';
 import './Testimonials.css'; // Opcional si quieres estilos separados
 
-const testimonials = [
+const Testimonials: React.FC = () => {
+  const testimonios = [
   {
     name: 'María Rodríguez',
     image: 'https://randomuser.me/api/portraits/women/44.jpg',
@@ -19,7 +20,6 @@ const testimonials = [
   },
 ];
 
-const Testimonials = () => {
   return (
     <div className="testimonials">
       <h2>Testimonios</h2>
