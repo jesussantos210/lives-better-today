@@ -6,17 +6,17 @@ const Testimonials: React.FC = () => {
   {
     name: 'María Rodríguez',
     image: 'https://randomuser.me/api/portraits/women/44.jpg',
-    text: 'ViveSaludRD me ayudó a mejorar mi alimentación. ¡100% recomendado!',
+    text: 'ViveSaludRD helped me improve my nutrition. 100% recommended!',
   },
   {
     name: 'Carlos Pérez',
     image: 'https://randomuser.me/api/portraits/men/32.jpg',
-    text: 'Gracias a sus consejos, tengo más energía en el día a día.',
+    text: 'Thanks to their tips, I have more energy throughout the day.',
   },
   {
     name: 'Ana López',
     image: 'https://randomuser.me/api/portraits/women/65.jpg',
-    text: 'Los productos recomendados en la página han sido muy útiles.',
+    text: 'The recommended products on the site have been very helpful.',
   },
 ];
 
