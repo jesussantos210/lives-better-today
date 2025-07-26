@@ -20,7 +20,7 @@ const App: React.FC = () => {
           <Route path="/product-recommendations" component={ProductRecommendations} />
           <Route path="/subscribe" component={SubscriptionForm} />
           <Route path="/contact" component={ContactPage} />
-          <Route path="/testimonios" element={<Testimonials} />
+          <Route path="/testimonios" element={<Testimonials />} />
         </Switch>
       </div>
     </Router>
