@@ -6,6 +6,7 @@ import ProductRecommendations from './components/ProductRecommendations';
 import SubscriptionForm from './components/SubscriptionForm';
 import ContactPage from './components/ContactPage';
 import TopMenu from './components/TopMenu';
+import Testimonials from './components/Testimonials';
 import './styles/main.css';
 
 const App: React.FC = () => {
@@ -19,6 +20,7 @@ const App: React.FC = () => {
           <Route path="/product-recommendations" component={ProductRecommendations} />
           <Route path="/subscribe" component={SubscriptionForm} />
           <Route path="/contact" component={ContactPage} />
+          <Route path="/testimonios" element={<Testimonials} />
         </Switch>
       </div>
     </Router>
