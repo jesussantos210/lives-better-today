@@ -14,14 +14,14 @@ const App: React.FC = () => {
     <Router>
       <div>
         <TopMenu />
-        <Switch>
+        <Routes>
           <Route path="/" exact component={MainPage} />
           <Route path="/welfare-tips" component={WelfareTips} />
           <Route path="/product-recommendations" component={ProductRecommendations} />
           <Route path="/subscribe" component={SubscriptionForm} />
           <Route path="/contact" component={ContactPage} />
           <Route path="/testimonios" component={<Testimonials />} />
-        </Switch>
+        </Routes>
       </div>
     </Router>
   );
